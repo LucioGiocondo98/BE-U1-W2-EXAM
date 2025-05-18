@@ -46,7 +46,7 @@ public class Prova {
                 System.out.print("Tipo (L = Libro, R = Rivista): ");
                 tipo = scanner.nextLine().trim().toUpperCase();
                 if (tipo.equals("L") || tipo.equals("R")) {
-                    break; // input valido, esci dal ciclo
+                    break;
                 } else {
                     System.out.println("Input non valido. Inserisci solo 'L' per Libro o 'R' per Rivista.");
                 }
